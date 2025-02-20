@@ -10,8 +10,8 @@
 ## 2.1. Pemilihan
 
 
-![Screenshot](/img/Screenshot%202025-02-17%20013942.png)
-![Screenshot](/img/Screenshot%202025-02-17%20013955.png)
+![Screenshot](/img/pemilihan1.png)
+![Screenshot](/img/pemilihan2.png)
 
 **Penjelesan singkat:** 
 Disini ada 6 step utama: 
@@ -25,7 +25,7 @@ Disini ada 6 step utama:
 ## 2.2. Perulangan
 
 
-![Screenshot](/img/Screenshot%202025-02-17%20014350.png)
+![Screenshot](/img/perulangan.png)
 
 **Penjelesan singkat:** 
 Disini ada 5 step utama: 
@@ -41,7 +41,7 @@ Disini ada 5 step utama:
 ## 2.3. Array
 
 
-![Screenshot](/img/Screenshot%202025-02-17%20015103.png)
+![Screenshot](/img/array.png)
 
 **Penjelesan singkat:** 
 Disini ada 7 step utama: 
@@ -57,8 +57,8 @@ Disini ada 7 step utama:
 ## 2.4. Fungsi
 
 
-![Screenshot](/img/Screenshot%202025-02-17%20015350.png)
-![Screenshot](/img/Screenshot%202025-02-17%20015406.png)
+![Screenshot](/img/fungsi.png)
+![Screenshot](/img/fungsi2.png)
 
 **Penjelesan singkat:** 
 Disini ada 6 step utama: 
@@ -81,8 +81,8 @@ Disini ada 6 step utama:
 ## Tugas 1
 
 
-![Screenshot](/img/Screenshot%202025-02-17%20015639.png)
-![Screenshot](/img/Screenshot%202025-02-17%20015645.png)
+![Screenshot](/img/tugas1.1.png)
+![Screenshot](/img/tugas1.2.png)
 
 **Penjelesan singkat:** 
 Disini ada 4 step utama: 
@@ -94,7 +94,7 @@ Disini ada 4 step utama:
 ## Tugas 2
 
 
-![Screenshot](/img/Screenshot%202025-02-17%20015850.png)
+![Screenshot](/img/tugas2.png)
 
 **Penjelesan singkat:** 
 Disini ada 5 step utama: 
@@ -109,9 +109,9 @@ Disini ada 5 step utama:
 ## Tugas 3
 
 
-![Screenshot](/img/Screenshot%202025-02-17%20020609.png)
-![Screenshot](/img/Screenshot%202025-02-17%20020623.png)
-![Screenshot](/img/Screenshot%202025-02-17%20020635.png)
+![Screenshot](/img/tugas3.1.png)
+![Screenshot](/img/tugas3.2.png)
+![Screenshot](/img/tugas3.3.png)
 
 **Penjelesan singkat:** 
 Disini ada 4 step utama: 
