@@ -98,6 +98,7 @@ public Mahasiswa12(String nm, String nim, double ipk, String kls) {
 2. Baris tersebut melakukan instansiasi pada object 'mhs2' menggunakan konstruktor berparameter.
 
 3. Hasilnya 
+
 ![Screenshot](img/pertanyaan3.png)
 
 Mengapa hasilnya demikian? Karena baris ke 6 di dalam file MahasiswaMain12.java dalam mengintansiasi object mhs1 tidak menggunakan parameter untuk konstruktornya, sehingga pada saat kita menghapus konstruktor default pada file Mahasiswa12.java akan menghasilkan error, Hal itu terjadi karena konstruktor yang memiliki parameter akan menjadi konstruktor default.
