@@ -71,7 +71,7 @@ Object yang dihasilkan adalah bernama mhs1.
 
 2. Untuk mengakses atribut dan method pada suatu object dengan menambahkan operator "." stelah menyebut nama object yang dimaksud.
 
-3. Hasil output dari method tampilkaninformasi() berbeda, karena penempatan ketika pemanggilan method tersebut berbeda.  Penempatan yang pertama terdapat pada baris setleah inisiasi, sedangkan yang kedua ditempatkan setelah menginisiasi method ubahkelas() dan updateipk().
+3. Hasil output dari method tampilkaninformasi() berbeda, karena penempatan ketika pemanggilan method tersebut berbeda.  Penempatan yang pertama terdapat pada baris setleah instansiasi, sedangkan yang kedua ditempatkan setelah menginstansiasi method ubahkelas() dan updateipk().
  
 ## 2.3 Percobaan 3 - Membuat Konstruktor
 
@@ -115,15 +115,13 @@ Mahasiswa12 mhsnoval = new Mahasiswa12("Khoirul Umam Novailid", "244107020210", 
 
 1. Program ini menggunakan 2 class yaitu : [MataKuliah12.java](./sc_code/Mahasiswa12.java) dan [MataKuliahMain12.java](./sc_code/MahasiswaMain12.java)
 
-2. Class MataKuliah ini mempunyai beberapa atribut dan method yang sudah di instansiasi.
-
-Running kode program
+2. Running kode program
 
 ![Screenshot](img/latihan1.1.png) ![Screenshot](img/latihan1.2.png)
 
 3. Alur kode program :
 
-	1.  Inisiasi Atribut pada MataKuliah12.java
+	1.  Inisiasi Atribut dan Method pada MataKuliah12.java
 
 	2. Mengintansiasi Object pada class MataKuliahMain12.java
 
@@ -131,6 +129,30 @@ Running kode program
 
 	4. Update jumlah jam dengan menambahkan atau mengurangi menggunakan method tambahjam() dan kurangjam()
 
-	5. Menampilkan kembali dengan method tampilinformasi()
+	5. Menampilkan object 2 setelah instansiasi dengan method tampilinformasi()
 
+	- Keterangan : Hitungan Jam menggunakan hitungan Menit
+
+
+### Dosen
+
+1. Program dalam kasus ini menggunakan 2 class yaitu : [Dosen12.java](./sc_code/Dosen12.java) dan [DosenMain12.java](./sc_code/DosenMain12.java)
+
+2. Running kode program
+
+![Screenshot](img/latihan2.1.png) ![Screenshot](img/latihan2.2.png)
+
+3. Alur kode Program :
+
+	1. Inisiasi Atribut dan Method pada class Dosen12.java
+
+	2. Instansi Object pada class DosenMain12.java
+
+	3. Menampilkan dengan menggunakan method tampilinformasi()
+
+	4. Mengubah bidang jika perlu dengan menggunakan method ubahkeahlian()
+
+	5. Menghitung masa kerja dosen yang berstatus aktif menggunakan method hitungmasa()
+
+	6. Menampilkan object ke-2 dengan method tampilinformasi() kedua setelah instansiasi object ke-2
 
