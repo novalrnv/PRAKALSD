@@ -109,4 +109,28 @@ Mengapa hasilnya demikian? Karena baris ke 6 di dalam file MahasiswaMain12.java 
 ```java
 Mahasiswa12 mhsnoval = new Mahasiswa12("Khoirul Umam Novailid", "244107020210", 3.08, "TI 1H");
 ```
+## 2.4 Latihan 1 Praktikum
+
+### Mata Kuliah
+
+1. Program ini menggunakan 2 class yaitu : [MataKuliah12.java](./sc_code/Mahasiswa12.java) dan [MataKuliahMain12.java](./sc_code/MahasiswaMain12.java)
+
+2. Class MataKuliah ini mempunyai beberapa atribut dan method yang sudah di instansiasi.
+
+Running kode program
+
+![Screenshot](img/latihan1.1.png) ![Screenshot](img/latihan1.2.png)
+
+3. Alur kode program :
+
+	1.  Inisiasi Atribut pada MataKuliah12.java
+
+	2. Mengintansiasi Object pada class MataKuliahMain12.java
+
+	3. Manampilkan dengan menggunakan method tampilinformasi()
+
+	4. Update jumlah jam dengan menambahkan atau mengurangi menggunakan method tambahjam() dan kurangjam()
+
+	5. Menampilkan kembali dengan method tampilinformasi()
+
 
