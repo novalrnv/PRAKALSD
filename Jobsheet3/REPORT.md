@@ -20,7 +20,7 @@ Menginputkan Kode Program sesuai perintah pada file [Mahasiswa12.java](./sc_code
 
 ### 3.1.2 Verifikasi Hasil Running
 
-![Screenshot](img/percobaan1.png)
+![Screenshot](/img/percobaan1.png)
 
 
 ### 3.1.3 Pertanyaan : 
