@@ -163,7 +163,7 @@ Kelas ```DataDosen12``` (yang belum diberikan) tampaknya berfungsi untuk mengola
 
 ### Tugas 2
 
-![Screenshot](img/tugas2.png)
+![Screenshot](img/Tugas2.png)
 
 ### Penjelasan Singkat
 
