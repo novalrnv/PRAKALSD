@@ -46,7 +46,7 @@ public int faktorialBF(int n) {
 
 ### 3.2.1 Langkah-langkah Percobaan
 
-Menginputkan kode program sesuai perintah dengan nama class [Pangkat](/sc_code/pangkat.java) dan [PangkatMain](/sc_code/pangkatmain.java).
+Menginputkan kode program sesuai perintah dengan nama class [Pangkat](sc_code/pangkat.java) dan [PangkatMain](sc_code/pangkatmain.java).
 
 ### 3.2.2 Verifikasi Hasil
 
@@ -91,7 +91,7 @@ if(n%2==1){
 
 ### 3.3.1 Langkah-langkah percobaan
 
-Menginputkan kode program sesuai perintah dengan nama class [Sum](/sc_code/sum.java) dan [Summain](/sc_code/summain.java).
+Menginputkan kode program sesuai perintah dengan nama class [Sum](sc_code/sum.java) dan [Summain](sc_code/summain.java).
 
 ### 3.3.2 Verifikasi Hasil
 
