@@ -201,4 +201,3 @@ Metode ini akan menghitung rata-rata usia dosen pria dan wanita dengan langkah-l
 Method ini mencari dosen dengan usia paling tinggi dari daftar yang tersedia. Jika ada lebih dari satu dosen dengan usia yang sama, hanya satu yang akan ditampilkan. Setelah menemukan dosen tertua, program akan mencetak informasinya.
 
 **6. Mencari Dosen dengan Usia Termuda melalui ```infoDosenPalingMuda()```**
-Serupa dengan pencarian dosen tertua, method ini mencari dosen dengan usia paling muda dalam daftar. Program akan membandingkan usia setiap dosen dalam array, lalu mencetak data dosen dengan usia paling rendah.
