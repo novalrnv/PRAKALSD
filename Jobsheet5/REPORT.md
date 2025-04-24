@@ -14,7 +14,7 @@
 
 ### 3.1.1 Langkah-langkah Percobaan
 
-Menginputkan kode program sesuai perintah dengan nama class [Faktorial](/sc_code/faktorial.java) dan [FaktorialMain](/sc_code/faktorialmain.java).
+Menginputkan kode program sesuai perintah dengan nama class [Faktorial](sc_code/faktorial.java) dan [FaktorialMain](sc_code/faktorialmain.java).
 
 ### 3.1.2 Verifikasi Hasil
 
