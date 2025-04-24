@@ -20,7 +20,7 @@ Menginputkan Kode Program sesuai perintah pada file [Mahasiswa12.java](./sc_code
 
 ### 3.1.2 Verifikasi Hasil Running
 
-![Screenshot](/img/percobaan1.png)
+![Screenshot](img/percobaan1.png)
 
 
 ### 3.1.3 Pertanyaan : 
@@ -46,7 +46,7 @@ Menginputkan Kode Program sesuai perintah pada class [Mahasiswa12.java](./sc_cod
 
 ### 3.2.2 Verifikasi Hasil Running
 
-![Screenshot](/img/percobaan2.png)
+![Screenshot](img/percobaan2.png)
 
 
 ### 3.2.3 Pertanyaan :
@@ -66,14 +66,14 @@ Menginputkan kode sesuai perintah pada class [Matakuliah12.java](./sc_code/Matak
 
 ### 3.3.2 Verifikasi Hasil Running
 
-![Screenshot](/img/percobaan3.png)
+![Screenshot](img/percobaan3.png)
 
 
 ### 3.3.3 Pertanyaan :
 
 1. Iya dapat memiliki lebih lebih dari 1 constructor, contohnya :
 
-![Screenshot](/img/pertanyaan1.3.png)
+![Screenshot](img/pertanyaan1.3.png)
 
 2. Menambahkan method cetakinfo() pada class Matakuliah12.java dan memanggil method tersebut pada class MatakuliahDemo12.java 
 ```java
@@ -126,7 +126,7 @@ System.out.print("Masukkan Jumlah Matakuliah : ");
 
 ### Tugas 1
 
-![Screenshot](/img/tugas1.png)
+![Screenshot](img/tugas1.png)
 
 ### Penjelesan Singkat
 
@@ -163,7 +163,7 @@ Kelas ```DataDosen12``` (yang belum diberikan) tampaknya berfungsi untuk mengola
 
 ### Tugas 2
 
-![Screenshot](/img/tugas2.png)
+![Screenshot](img/Tugas2.png)
 
 ### Penjelasan Singkat
 
@@ -201,3 +201,4 @@ Metode ini akan menghitung rata-rata usia dosen pria dan wanita dengan langkah-l
 Method ini mencari dosen dengan usia paling tinggi dari daftar yang tersedia. Jika ada lebih dari satu dosen dengan usia yang sama, hanya satu yang akan ditampilkan. Setelah menemukan dosen tertua, program akan mencetak informasinya.
 
 **6. Mencari Dosen dengan Usia Termuda melalui ```infoDosenPalingMuda()```**
+Serupa dengan pencarian dosen tertua, method ini mencari dosen dengan usia paling muda dalam daftar. Program akan membandingkan usia setiap dosen dalam array, lalu mencetak data dosen dengan usia paling rendah.
