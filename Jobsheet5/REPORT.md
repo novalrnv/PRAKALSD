@@ -18,7 +18,7 @@ Menginputkan kode program sesuai perintah dengan nama class [Faktorial](/sc_code
 
 ### 3.1.2 Verifikasi Hasil
 
-![Screenshot](/img/verifpercobaan1.png)
+![Screenshot](img/verifpercobaan1.png)
 
 ### 3.1.3 Pertanyaan
 
@@ -50,7 +50,7 @@ Menginputkan kode program sesuai perintah dengan nama class [Pangkat](/sc_code/p
 
 ### 3.2.2 Verifikasi Hasil
 
-![Screenshot](/img/verifpercobaan2.png)
+![Screenshot](img/verifpercobaan2.png)
 
 ### 3.2.3 Pertanyaan
 
@@ -95,7 +95,7 @@ Menginputkan kode program sesuai perintah dengan nama class [Sum](/sc_code/sum.j
 
 ### 3.3.2 Verifikasi Hasil
 
-![Screenshot](/img/verifpercobaan3.png)
+![Screenshot](img/verifpercobaan3.png)
 
 ### 3.3.3 Pertanyaan
 
