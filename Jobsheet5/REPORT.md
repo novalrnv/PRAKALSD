@@ -114,4 +114,20 @@ Menginputkan kode program sesuai perintah dengan nama class [Sum](sc_code/sum.ja
 
 ### Kode Program
 
-### Alur Program
+Membuat dua class, yaitu : [Mahasiswa](sc_code/Mahasiswa.java) dan [MahasiswaMain](sc_code/MahasiswaMain.java)
+
+**Hasil Runnning**
+
+![Screenshot](img/latihan.png)
+
+### Penjelasan Kode
+1. **Kelas `Mahasiswa` :**
+   - Menyimpan atribut mahasiswa seperti nama, NIM, tahun masuk, nilai UTS, dan nilai UAS.
+   - Memiliki konstruktor untuk inisialisasi data serta method get untuk nilai UTS dan UAS.
+
+2. **Kelas `MahasiswaMain` :**
+   - Mengandung method main() untuk eksekusi program.
+   - Membuat objek Mahasiswa dalam array.
+   - Menggunakan method untuk menghitung nilai UTS tertinggi, terendah, dan rata-rata nilai UAS.
+
+## Terima Kasih :)
