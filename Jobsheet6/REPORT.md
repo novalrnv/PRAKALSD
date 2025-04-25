@@ -154,3 +154,8 @@ Mengannti simbol `>` pada baris `while (j > 0 && listMhs[j - 1].ipk < temp.ipk) 
 
 **Berikut adalah hasil running dari kode program yang saya buat sesuai perintah Diagram Class :**
 
+![Screenshot](img/latian1.png)
+![Screenshot](img/latian2.png)
+![Screenshot](img/latian3.png)
+
+## Terima Kasih :)
