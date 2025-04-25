@@ -84,16 +84,17 @@ Disini ada 2 step utama:
 
 ## Tugas 1
 
- ![Screenshot](/jobsheet7/img/Screenshot%202025-03-28%20175058.png)
+- Sequential Search
+ ![Screenshot](img/tugas.1.png)
 
- ![Screenshot](/jobsheet7/img/Screenshot%202025-03-28%20175115.png)
+- Binary Search
+ ![Screenshot](img/tugas.2.png)
 
 ***
-**Penjelesan singkat:** 
+**Penjelesan singkat :** 
 Disini ada 4 step utama: 
-1.  **Buat class [`Dosen`](sc_code/Dosen12.java)**
-2.  **Buat class [`DataDosen`](sc_code/DataDosen12.java)**
-3.  **Buat class [`DosenMain`](sc_code/DosenDemo12.java)**
+1.  **Menambahkan method pada class [`DataDosen`](sc_code/DataDosen12.java)**
+3.  **Menambahkan fitur pada class [`DosenMain`](sc_code/DosenDemo12.java)**
 4.  **Uji Coba**
 ***
 ## Terima Kasih :)
