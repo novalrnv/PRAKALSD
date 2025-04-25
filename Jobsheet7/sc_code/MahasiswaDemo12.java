@@ -38,7 +38,7 @@ public class MahasiswaDemo12 {
 
         System.out.println("Menggunakan sequential searching ");
         System.out.println("=========================");
-        double posisi = list.sequntialSarching(cari);
+        double posisi = list.sequntialSearching(cari);
         int pss = (int) posisi;
 
         list.tampilPosisi(cari, pss);
@@ -52,7 +52,6 @@ public class MahasiswaDemo12 {
         String cr2 = sc.nextLine();
         Double cari2 = Double.parseDouble(cr2);
         System.out.println("=========================");
-
         System.out.println("Menggunakan binary search ");
         System.out.println("=========================");
         double posisi2 = list.findBinarySearch(cari2, 0, jumMhs - 1);

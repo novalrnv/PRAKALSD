@@ -32,15 +32,16 @@ Disini ada 3 step utama:
 ***
 ## 7.3 Searching / Pencarian Menggunakan Binary Search
 
+**Verifikasi Running**
 
- ![Screenshot](/jobsheet7/img/Screenshot%202025-03-28%20142332.png)
+![Screenshot](img/Verifikasi2.1.png)
  
-![Screenshot](/jobsheet7/img/Screenshot%202025-03-28%20142350.png)	
+![Screenshot](img/Verifikasi2.2.png)	
 ***
 **Penjelesan singkat:** 
 Disini ada 2 step utama: 
 1.  **Menambahkan Fitur pencarian Binary Search**
-2.  **Menambahkan code untuk menjalankan fitur yg diata di `MahasiswaDemo12`**
+2.  **Menambahkan code untuk menjalankan fitur yang di `MahasiswaDemo12`**
     ***
   **Pertanyaan :**
   1. **Tunjukkan pada kode program yang mana proses divide dijalankan!**
@@ -77,11 +78,10 @@ Disini ada 2 step utama:
     			return -1;
 			}
 
-	-  ![Screenshot](/jobsheet7/img/Screenshot%202025-03-28%20152059.png)
-	
  5. **Modifikasilah program diatas yang mana jumlah mahasiswa yang di inputkan sesuai dengan masukan dari keyboard.**
-	-  ![Screenshot](/jobsheet7/img/Screenshot%202025-03-28%20161452.png)
+	-  ![Screenshot](img/2.5.png)
 ***
+
 ## Tugas 1
 
  ![Screenshot](/jobsheet7/img/Screenshot%202025-03-28%20175058.png)
@@ -91,9 +91,9 @@ Disini ada 2 step utama:
 ***
 **Penjelesan singkat:** 
 Disini ada 4 step utama: 
-1.  **Buat class `Dosen`**
-2.  **Buat class `DataDosen`**
-3.  **Buat class `DosenMain`**
+1.  **Buat class [`Dosen`](sc_code/Dosen12.java)**
+2.  **Buat class [`DataDosen`](sc_code/DataDosen12.java)**
+3.  **Buat class [`DosenMain`](sc_code/DosenDemo12.java)**
 4.  **Uji Coba**
 ***
 ## Terima Kasih :)

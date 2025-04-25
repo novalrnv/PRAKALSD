@@ -3,6 +3,7 @@ public class MahasiswaBerprestasi12 {
     int elemen;
     Mahasiswa12[] listMhs;
     int idx;
+
     MahasiswaBerprestasi12(int elm){
         this.elemen = elm;
         listMhs = new Mahasiswa12[elm];
@@ -24,7 +25,7 @@ public class MahasiswaBerprestasi12 {
         }
     }
 
-    int sequntialSarching(double cari){
+    int sequntialSearching(double cari){
         int posisi = -1;
         for(int i = 0; i < elemen; i++){
             if (listMhs[i].ipk == cari) {
@@ -60,7 +61,7 @@ public class MahasiswaBerprestasi12 {
             mid = (left + right) / 2;
             if (cari == listMhs[mid].ipk){
                 return (mid);
-            }else if (listMhs[mid].ipk < cari) {
+            } else if (listMhs[mid].ipk > cari) {
                 return findBinarySearch(cari, left, mid - 1);
             }else{
                 return findBinarySearch(cari, mid + 1, right);
