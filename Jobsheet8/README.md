@@ -90,4 +90,22 @@ case 6:
 ### TUGAS ###
 **Penjelasan**
 
-- Membuat class
+- Membuat 3 class yaitu : [Surat12.java](sc_code/Surat12.java), [StackSurat12.java](sc_code/StackSurat12.java), dan [SuratMain12.java](sc_code/SuratMain12.java).
+
+- Penjelasan alur singkat :
+    
+    1. User memilih menu pada class main.
+    2. Jika menu *1* yang dipilih maka akan diminta untuk menginputkan data surat.
+    3. Jika menu *2* maka stack memanggil method `pop()` untuk memproses surat.
+    4. Jika menu *3* maka program memanggil method `peek()` untuk menampilkan surat teratas / yang terakhir diinputkan.
+    5. JIka menu *4* maka pengguna akan diminta untuk menginputkan nama mahasiswa untuk mencari apakah ada surat atas nama tersebut.
+    6. Jika menu *5* maka akan keluar dari program.
+
+**Verifikasi Hasil Running**
+
+![Screenshot](img/tugas.1.png)
+![Screenshot](img/tugas.2.png)
+![Screenshot](img/tugas.3.png)
+
+
+## Terimakasih :) ##
