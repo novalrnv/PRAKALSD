@@ -9,6 +9,7 @@
 
 ## 8.1 Mahasiswa Mengumpulakan Tugas
 
+### Percobaan 1 ###
 **Penjelasan**
 
 - Membuat 3 class sesuai perintah [Mahasiswa12.java](sc_code/Mahasiswa12.java), [StackTugasMahasiswa12.java](sc_code/StackTugasMahasiswa12.java), dan [MahasiswaDemo12.java](sc_code/MahasiswaDemo12.java). Juga menginputkan method-method sesuai perintah.
@@ -65,3 +66,28 @@ case 6:
     System.out.println("Jumlah tugas saat ini: " + stack.count());
     break;
 ```
+
+
+### Percobaan 2 ###
+**Penjelasan**
+
+- Menambahkan method pada class `StackTugasMahasiswa12.java` dan membuat class baru [StackKonversi12.java](sc_code/StackKonversi12.java).
+
+**Verifikasi Hasil Running**
+
+![Screenshot](img/2.png)
+
+**Pertanyaan :**
+
+1. Penjelasan alur method `konversiDesimalKeBiner` :
+- inisialisasi object `StackKonversi` untuk menyimpan hasil dari pembagian nilai desimal dengan 2.
+- Perulangan dengan pembagian 2, selama `nilai > 0`.
+- Setelah selesai, mengambil semua elemen dari stack menggunakan method `pop`.
+
+2. Jika kode diubah menjadi `while (nilai != 0)` Hasilnya tidak berubah, karena tujuan dari kode tersebut berhenti setelah nilai menjadi 0, Akan tetapi kode `while (nilai > 0)` lebih efektif, karena hanya nilai positif yang diproses.
+
+
+### TUGAS ###
+**Penjelasan**
+
+- Membuat class
