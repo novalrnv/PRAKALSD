@@ -54,10 +54,21 @@ public class StackTugasMahasiswa12 {
         }
     }
 
+    public Mahasiswa12 bottom() {
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            return null;
+        }
+    }
+
     public void print() {
-        for (int i = 0; i <= top; i++) {
+        for (int i = top; i >= 0; i--) {
             System.out.println(stack[i].nama + "\t" + stack[i].nim +"\t"+ stack[i].kelas);
         }
-        System.out.println("");
+    }
+
+    public int count() {
+        return top + 1;
     }
 }
