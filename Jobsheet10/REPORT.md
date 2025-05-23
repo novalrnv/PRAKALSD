@@ -65,3 +65,20 @@ Pada percobaan ke 2 ini hanya menambahkan beberapa method.
 
 ### 8.3.1 Tugas
 
+**Penjelasan :**
+
+Pada tugas kali ini saya membuat 4 class, yaitu : 
+
+- [Mahasiswa.java](sc_code/Mahasiswa.java)
+- [NodeMhs12.java](sc_code/NodeMhs12.java)
+- [LinkedListAntrian12.java](sc_code/LinkedListAntrian12.java)
+- [AntrianMain12.java](sc_code/AntrianMain12.java)
+
+**Output :**
+
+![Screenshot](img/tugas.1.png)
+![Screenshot](img/tugas.2.png)
+![Screenshot](img/tugas.3.png)
+
+
+## Terimakasih :)
