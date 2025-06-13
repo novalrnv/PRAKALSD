@@ -22,7 +22,9 @@ Membuat 4 class yaitu :
 **Verifikasi Hasil**
 
 ![ScreenShoot](img/1.png)
+
 ![ScreenShoot](img/2.png)
+
 ![ScreenShoot](img/3.png)
 
 ## 13.2.2 Pertanyaan :
