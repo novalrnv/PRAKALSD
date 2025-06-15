@@ -84,3 +84,86 @@ Disini saya membuat 2 class baru, yaitu :
 
 ## 13.3 Tugas
 
+1. Membuat method `addRekursif()`
+```java
+Node12 addRekursif(Node12 root, Mahasiswa12 mahasiswa) {
+        Node12 newNode = new Node12(mahasiswa);
+        if (root == null) {
+        root = newNode;
+        } else if (newNode.mahasiswa.ipk < root.mahasiswa.ipk) {
+        root.left = addRekursif(root.left, mahasiswa);
+        } else if (newNode.mahasiswa.ipk >= root.mahasiswa.ipk) {
+        root.right = addRekursif(root.right, mahasiswa);
+        }
+        return root;
+    }
+```
+
+2. Membuat method `cariMinIPK()` dan `cariMaxIPK()`
+```java
+public void cariMinIPK() {
+        Node12 current = root;
+        if (current == null) {
+            System.out.println("Tree kosong");
+            return;
+        }
+
+        while (current.left != null) {
+            current = current.left;
+        }
+
+        System.out.println("Mahasiswa dengan IPK minimum:");
+        current.mahasiswa.tampilInformasi();
+    }
+
+    public void cariMaxIPK() {
+        Node12 current = root;
+        if (current == null) {
+            System.out.println("Tree kosong");
+            return;
+        }
+
+        while (current.right != null) {
+            current = current.right;
+        }
+
+        System.out.println("Mahasiswa dengan IPK maksimum:");
+        current.mahasiswa.tampilInformasi();
+    }
+```
+
+3. Membuat method `tampilMahasiswaIPKdiAtas()`
+```java
+public void tampilMahasiswaIPKdiAtas(double ipkBatas) {
+        tampilMahasiswaDiAtas(root, ipkBatas);
+    }
+
+    private void tampilMahasiswaDiAtas(Node12 node, double batas) {
+        if (node != null) {
+            tampilMahasiswaDiAtas(node.left, batas);
+            if (node.mahasiswa.ipk > batas) {
+                node.mahasiswa.tampilInformasi();
+            }
+            tampilMahasiswaDiAtas(node.right, batas);
+        }
+    }
+```
+
+4. Modifikasi class **BinaryTreeArray12** menambahkan method `add()` dan `traversePreOrder()`
+```java
+public void add(Mahasiswa12 data) {
+        if (idxLast + 1 < dataMahasiswa.length) {
+            dataMahasiswa[++idxLast] = data;
+        } else {
+            System.out.println("Tree penuh");
+        }
+    }
+
+    public void traversePreOrder(int idxStart) {
+        if (idxStart <= idxLast && dataMahasiswa[idxStart] != null) {
+            dataMahasiswa[idxStart].tampilInformasi();
+            traversePreOrder(2 * idxStart + 1);
+            traversePreOrder(2 * idxStart + 2);
+        }
+    }
+```

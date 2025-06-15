@@ -1,10 +1,24 @@
 package Jobsheet13.sc_code;
 
+import java.lang.classfile.components.ClassPrinter.Node;
+
 public class BinaryTree12 {
     Node12 root;
 
     public BinaryTree12() {
         root = null;
+    }
+
+    Node12 addRekursif(Node12 root, Mahasiswa12 mahasiswa) {
+        Node12 newNode = new Node12(mahasiswa);
+        if (root == null) {
+        root = newNode;
+        } else if (newNode.mahasiswa.ipk < root.mahasiswa.ipk) {
+        root.left = addRekursif(root.left, mahasiswa);
+        } else if (newNode.mahasiswa.ipk >= root.mahasiswa.ipk) {
+        root.right = addRekursif(root.right, mahasiswa);
+        }
+        return root;
     }
 
     public boolean isEmpty() {
@@ -170,4 +184,47 @@ public class BinaryTree12 {
         }
     }
 
+    public void cariMinIPK() {
+        Node12 current = root;
+        if (current == null) {
+            System.out.println("Tree kosong");
+            return;
+        }
+
+        while (current.left != null) {
+            current = current.left;
+        }
+
+        System.out.println("Mahasiswa dengan IPK minimum:");
+        current.mahasiswa.tampilInformasi();
+    }
+
+    public void cariMaxIPK() {
+        Node12 current = root;
+        if (current == null) {
+            System.out.println("Tree kosong");
+            return;
+        }
+
+        while (current.right != null) {
+            current = current.right;
+        }
+
+        System.out.println("Mahasiswa dengan IPK maksimum:");
+        current.mahasiswa.tampilInformasi();
+    }
+
+    public void tampilMahasiswaIPKdiAtas(double ipkBatas) {
+        tampilMahasiswaDiAtas(root, ipkBatas);
+    }
+
+    private void tampilMahasiswaDiAtas(Node12 node, double batas) {
+        if (node != null) {
+            tampilMahasiswaDiAtas(node.left, batas);
+            if (node.mahasiswa.ipk > batas) {
+                node.mahasiswa.tampilInformasi();
+            }
+            tampilMahasiswaDiAtas(node.right, batas);
+        }
+    }
 }
