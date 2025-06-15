@@ -11,6 +11,7 @@
 ## 13.2.1 Percobaan 1
 
 **Penjelasan :**
+
 Membuat 4 class yaitu :
 
  - [Mahasiswa12.java](sc_code/Mahasiswa12.java)
@@ -54,3 +55,32 @@ Membuat 4 class yaitu :
 ## 13.2.3 Percobaan 2
 
 **Penjelasan :**
+
+Disini saya membuat 2 class baru, yaitu :
+
+- [BinaryTreeArray12.java](sc_code/BinaryTreeArray12.java)
+- [BinaryTreeArrayMain12.java](sc_code/BinaryTreeArrayMain12.java)
+
+
+**Verifikasi Hasil :**
+
+![Screenshot](img/2.1.png)
+
+
+## 13.2.4 Pertanyaan
+
+1. - `data` kegunaan atribut berikut adalah untuk menyimpan nilai node dari tree.
+    - `idxLast` digunakan untuk menandakan index terakhir dari array yang digunakan untuk menyimpan nilai node dari tree.
+
+2. Method `populateData()` digunakan untuk menyimpan data ke array tree yang sudah diinisialisasi didalam class `BinaryTreeArray12`.
+
+3. Method `traverseInOrder()` kegunaan method berikut adalah men traversal secara rekursif dari kiri ke kanan.
+
+4. Posisi left child = 5 dan right child = 6.
+
+5. Statement `int idxLast = 6` menandakan bahwa index terakhir dari array.
+
+6. Indeks `2*idxStart+1` dan `2*idxStart+2` digunakan untuk menandakan posisi dari child left dan right dari node, Pemanggilan rekursif mengikutinya sehingga memungkinkan kita menavigasi struktur pohon biner dalam array.
+
+## 13.3 Tugas
+
